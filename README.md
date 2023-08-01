@@ -1,7 +1,5 @@
 # Admin Dashboard Application
 
-![Admin Dashboard](dashboard_screenshot.png)
-
 The Admin Dashboard Application is a web-based application built with React.js that provides a user-friendly interface for managing staff information access, customer contacts, and displaying financial charts of the company. This application is designed to be used by authorized administrative personnel to efficiently handle essential tasks related to staff and customer data, as well as monitoring financial performance through insightful charts and graphs.
 
 ## Key Features
@@ -12,6 +10,11 @@ The Admin Dashboard Application is a web-based application built with React.js t
 
 - **Financial Charts:** The application provides dynamic and interactive financial charts that offer a visual representation of the company's financial performance. It includes charts for revenue, expenses, profits, and other key financial metrics over specific periods.
 
+![Home](https://github.com/Ethan-LN/Finance-Dashboard/assets/71419743/47f208c8-16f7-4565-9966-16ada6ed122b)
+
+![2](https://github.com/Ethan-LN/Finance-Dashboard/assets/71419743/47af0a88-5034-4aed-b7e3-87289191ef90)
+
+![3](https://github.com/Ethan-LN/Finance-Dashboard/assets/71419743/8f1c38f5-6d85-4787-a567-58cce99ab090)
 
 ## Usage
 
