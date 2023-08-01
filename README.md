@@ -1,70 +1,30 @@
-# Getting Started with Create React App
+# Admin Dashboard Application
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+![Admin Dashboard](dashboard_screenshot.png)
 
-## Available Scripts
+The Admin Dashboard Application is a web-based application built with React.js that provides a user-friendly interface for managing staff information access, customer contacts, and displaying financial charts of the company. This application is designed to be used by authorized administrative personnel to efficiently handle essential tasks related to staff and customer data, as well as monitoring financial performance through insightful charts and graphs.
 
-In the project directory, you can run:
+## Key Features
 
-### `npm start`
+- **Staff Information Access Management:** Easily manage staff permissions and access levels to sensitive company data. Admins can add, edit, and remove staff members, assign roles, and control what data each staff member can view or modify.
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+- **Customer Contacts Management:** Keep track of customer contacts and their relevant information. Admins can add new customers, update contact details, and search for specific customers using various filters.
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+- **Financial Charts:** The application provides dynamic and interactive financial charts that offer a visual representation of the company's financial performance. It includes charts for revenue, expenses, profits, and other key financial metrics over specific periods.
 
-### `npm test`
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+## Usage
 
-### `npm run build`
+1. **Login:** Once the application is running, you will be presented with a login screen. Enter your admin credentials to access the dashboard.
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+2. **Staff Management:** In the Staff section, you can manage staff information, including adding new staff members, editing existing profiles, and managing their access permissions.
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+3. **Customer Contacts:** Navigate to the Customers section to view and manage customer contacts. You can search for customers, add new contacts, and update their details as needed.
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+4. **Financial Charts:** The Financial section displays various charts and graphs representing the company's financial performance. Interact with the charts to drill down into specific data points and analyze financial trends over time.
 
-### `npm run eject`
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+## License
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+The Admin Dashboard Application is licensed under the [MIT License](LICENSE). Feel free to use, modify, and distribute it as per the terms of the license.
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
-
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
