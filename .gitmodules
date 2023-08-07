@@ -1,0 +1,3 @@
+[submodule "DjangoRESTful-api-Dashboard-infor-fetcher"]
+	path = DjangoRESTful-api-Dashboard-infor-fetcher
+	url = https://github.com/Ethan-LN/DjangoRESTful-api-Dashboard-infor-fetcher
