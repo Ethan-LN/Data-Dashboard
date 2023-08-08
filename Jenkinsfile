@@ -5,7 +5,7 @@ pipeline {
             steps {
                 sh '''
                 chmod +x setnpm.sh
-                ./envsetup.sh
+                ./setnpm.sh
                 '''
             }
         }
