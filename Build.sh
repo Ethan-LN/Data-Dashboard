@@ -1,15 +1,29 @@
 #!/bin/bash
+
+# Change directory to your workspace
 cd /var/lib/jenkins/workspace/react-cicd/
-echo"Upgrade the npm and node,  currently"
+
+# Display a message
+echo "Upgrade the npm and node, currently"
 
 # Check if the line is already present in the file
 if ! grep -q "export PATH=/usr/local/bin:\$PATH" ~/.bashrc; then
     echo "export PATH=/usr/local/bin:\$PATH" | sudo tee -a ~/.bashrc
 fi
-echo "Before uprde "
+
+# Display another message
+echo "Before upgrade"
+
+# Clean npm cache and install n
 sudo npm cache clean -f
 sudo npm install -g n -y
+
+# Upgrade to the latest stable node version
 sudo n stable
-"After update node and npm "
+
+# Display a message
+echo "After update node and npm"
+
+# Check node and npm versions
 node -v
 npm -v
