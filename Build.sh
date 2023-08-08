@@ -16,7 +16,7 @@ echo "Before upgrade"
 
 # Clean npm cache and install n
 sudo npm cache clean -f
-sudo npm install -g n -y
+sudo npm install -y
 
 # Upgrade to the latest stable node version
 sudo n stable
@@ -30,9 +30,9 @@ npm -v
 
 
 # Check if the line is already present in the file
-if ! grep -q "export PATH=./node_modules/.bin:\$PATH" ~/.bashrc; then
-    echo "export PATH=./node_modules/.bin:\$PATH" >> ~/.bashrc
-fi
+# if ! grep -q "export PATH=./node_modules/.bin:\$PATH" ~/.bashrc; then
+#     echo "export PATH=./node_modules/.bin:\$PATH" >> ~/.bashrc
+# fi
 
 # start the server by port 3000
 npm start 0.0.0.0:3000
