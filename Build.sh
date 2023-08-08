@@ -8,7 +8,7 @@ if ! grep -q "export PATH=/usr/local/bin:\$PATH" ~/.bashrc; then
 fi
 echo "Before uprde "
 sudo npm cache clean -f
-sudo npm install -g n
+sudo npm install -g n -y
 sudo n stable
 "After update node and npm "
 node -v
