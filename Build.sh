@@ -15,7 +15,8 @@ fi
 echo "Before upgrade"
 
 # Clean npm cache and install n
-# sudo npm cache clean -f
+sudo npm cache clean -f
+# rm -rf node_modules
 sudo npm install -y
 
 # Upgrade to the latest stable node version
