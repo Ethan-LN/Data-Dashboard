@@ -12,12 +12,13 @@ if ! grep -q "export PATH=/usr/local/bin:\$PATH" ~/.bashrc; then
 fi
 
 # Display another message
-echo "Before upgrade"
+# echo "Before upgrade"
 
 # Clean npm cache and install n
-sudo npm cache clean -f
-sudo rm -rf node_modules
-sudo npm install -y
+# sudo yarn cache clean -f
+# sudo rm -rf node_modules
+
+sudo yarn install -y
 
 # Upgrade to the latest stable node version
 
@@ -26,7 +27,7 @@ sudo npm install -y
 
 # Check node and npm versions
 node -v
-npm -v
+yarn -v
 
 
 # Check if the line is already present in the file
@@ -35,4 +36,4 @@ npm -v
 # fi
 
 # start the server by port 3000
-npm start 0.0.0.0:3000
+yarn start 0.0.0.0:3000
