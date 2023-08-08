@@ -36,4 +36,4 @@ yarn -v
 # fi
 
 # start the server by port 3000
-yarn start 0.0.0.0:3000
+# yarn start 0.0.0.0:3000
