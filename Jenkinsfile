@@ -1,28 +1,40 @@
 pipeline {
     agent any
+
     stages {
         stage('Setup npm') {
             steps {
-                sh '''
-                chmod +x Setup.sh
-                ./Setup.sh
-                '''
+                script {
+                    // Modify PATH for this stage
+                    sh '''
+                    chmod +x Setup.sh
+                    ./Setup.sh
+                    '''
+                }
             }
         }
         stage('npm build') {
             steps {
-                sh '''
-                chmod +x Build.sh
-                ./Build.sh
-                '''
+                script {
+                    // Modify PATH for this stage
+                    env.PATH = "/usr/local/bin:$PATH"
+                    sh '''
+                    chmod +x Build.sh
+                    ./Build.sh
+                    '''
+                }
             }
         }
         stage('npm run') {
             steps {
-                sh '''
-                chmod +x Run.sh
-                ./Run.sh
-                '''
+                script {
+                    // Modify PATH for this stage
+                    env.PATH = "/usr/local/bin:$PATH"
+                    sh '''
+                    chmod +x Run.sh
+                    ./Run.sh
+                    '''
+                }
             }
         }
     }
