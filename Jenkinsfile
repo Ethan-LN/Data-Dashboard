@@ -4,24 +4,24 @@ pipeline {
         stage('Setup npm') {
             steps {
                 sh '''
-                chmod +x setnpm.sh
-                ./setnpm.sh
+                chmod +x Setup.sh
+                ./Setup.sh
                 '''
             }
         }
         stage('npm build') {
             steps {
                 sh '''
-                chmod +x  npmBuild.sh
-                ./npmBuild.sh
+                chmod +x Build.sh
+                ./Build.sh
                 '''
             }
         }
         stage('npm run') {
             steps {
                 sh '''
-                chmod +x  npmRun.sh
-                ./npmRun.sh
+                chmod +x Run.sh
+                ./Run.sh
                 '''
             }
         }
