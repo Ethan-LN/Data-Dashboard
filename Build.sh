@@ -15,14 +15,13 @@ fi
 echo "Before upgrade"
 
 # Clean npm cache and install n
-sudo npm cache clean -f
+# sudo npm cache clean -f
 sudo npm install -y
 
 # Upgrade to the latest stable node version
-sudo n stable
 
 # Display a message
-echo "After update node and npm"
+# echo "npm installed"
 
 # Check node and npm versions
 node -v
