@@ -6,9 +6,7 @@ echo"Upgrade the npm and node,  currently"
 if ! grep -q "export PATH=/usr/local/bin:\$PATH" ~/.bashrc; then
     echo "export PATH=/usr/local/bin:\$PATH" | sudo tee -a ~/.bashrc
 fi
-node -v
 echo "Before uprde "
-npm -v
 sudo npm cache clean -f
 sudo npm install -g n
 sudo n stable
