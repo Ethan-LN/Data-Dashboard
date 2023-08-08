@@ -17,7 +17,7 @@ pipeline {
             steps {
                 script {
                     // Modify PATH for this stage
-                    env.PATH = "/usr/local/bin:$PATH"
+                    // env.PATH = "/usr/local/bin:$PATH"
                     sh '''
                     chmod +x Build.sh
                     ./Build.sh
@@ -29,7 +29,7 @@ pipeline {
             steps {
                 script {
                     // Modify PATH for this stage
-                    env.PATH = "/usr/local/bin:$PATH"
+                    // env.PATH = "/usr/local/bin:$PATH"
                     sh '''
                     chmod +x Run.sh
                     ./Run.sh
