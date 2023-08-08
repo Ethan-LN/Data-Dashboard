@@ -19,13 +19,13 @@ pipeline {
             }
         }
 
-        stage('npm run') {
-            steps {
-                    sh '''
-                    chmod +x Run.sh
-                    ./Run.sh
-                    '''
-            }
-        }
+        // stage('npm run') {
+        //     steps {
+        //             sh '''
+        //             chmod +x Run.sh
+        //             ./Run.sh
+        //             '''
+        //     }
+        // }
     }
 }

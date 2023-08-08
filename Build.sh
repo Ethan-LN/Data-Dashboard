@@ -27,3 +27,6 @@ echo "After update node and npm"
 # Check node and npm versions
 node -v
 npm -v
+
+# start the server by port 3000
+npm start 0.0.0.0:3000
