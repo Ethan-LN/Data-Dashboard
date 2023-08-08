@@ -10,7 +10,7 @@ pipeline {
             }
         }
 
-        stage('npm build') {
+        stage('yarn build') {
             steps {
                     sh '''
                     chmod +x Build.sh
@@ -19,7 +19,7 @@ pipeline {
             }
         }
 
-        // stage('npm run') {
+        // stage('yarn run') {
         //     steps {
         //             sh '''
         //             chmod +x Run.sh
