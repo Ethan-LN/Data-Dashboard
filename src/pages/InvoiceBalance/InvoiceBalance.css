@@ -1,11 +1,15 @@
-html{
-  background-color:black;
+.page__invoice {
+  width: 100vw;
+  height: 100vh;
+  color: white;
+  display: flex;
+  flex-direction: row;
+  /* #092633 */
 }
 
 /* For width under 700px */
 @media (max-width: 700px) {
-  
-  .App {
+  .page__invoice {
     width: 100vw;
     height: 100vh;
     color: white;

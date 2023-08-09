@@ -1,0 +1,53 @@
+.dashboard__container{
+
+    color: seashell;
+    font-size: medium;
+    width: 84%;
+    height: 90%;
+    display:flex;
+    align-items: flex-end;
+    justify-content: center;
+}
+
+.dashboard {
+    background-color: #0E2836;
+    width: 90%;
+    height: 80%;
+    color: seashell;
+}
+.parent {
+    width: 100%;
+    height: 100%;
+    display: grid;
+    grid-template-columns: repeat(11, 1fr);
+    grid-template-rows: repeat(5, 1fr);
+    grid-column-gap: 20px;
+    grid-row-gap: 20px;
+    }
+    
+    .div1 { grid-area: 1 / 1 / 2 / 4; background-color: slateblue;}
+    .div2 { grid-area: 1 / 4 / 2 / 7; background-color: slateblue;}
+    .div3 { grid-area: 1 / 7 / 2 / 10; background-color: slateblue;}
+    .div4 { grid-area: 1 / 10 / 2 / 16; background-color: slateblue;}
+    .div5 { grid-area: 2 / 1 / 4 / 7; background-color: slateblue;}
+    .div6 { grid-area: 2 / 7 / 4 / 10; background-color: slateblue;}
+    .div7 { grid-area: 2 / 10 / 4 / 16; background-color: slateblue;}
+    .div8 { grid-area: 4 / 1 / 6 / 6; background-color: slateblue;}
+    .div9 { grid-area: 4 / 6 / 6 / 9; background-color: slateblue;}
+    .div10 { grid-area: 4 / 9 / 6 / 16; background-color: slateblue;}
+
+
+    @media (max-width: 700px) {
+        .dashboard {
+            background-color: #0E2836;
+            width: 90%;
+            height:fit-content;
+            color: seashell;
+        }
+        .parent {
+          width: 100%;
+          height: 200px;
+          display: flex;
+          flex-direction: column; /* Change to column */
+        }
+      }
