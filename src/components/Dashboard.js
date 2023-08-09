@@ -5,17 +5,17 @@ const Dashboard = () => {
   return (
     <div className="dashboard__container">
       <div className="dashboard">
-        <div class="parent">
-          <div class="div1"> div1</div>
-          <div class="div2"> div2</div>
-          <div class="div3"> div3</div>
-          <div class="div4"> div4</div>
-          <div class="div5"> div5</div>
-          <div class="div6"> div6</div>
-          <div class="div7"> div7</div>
-          <div class="div8"> div8</div>
-          <div class="div9"> div9</div>
-          <div class="div10"> div10</div>
+        <div className="parent">
+          <div className="div1"> div1</div>
+          <div className="div2"> div2</div>
+          <div className="div3"> div3</div>
+          <div className="div4"> div4</div>
+          <div className="div5"> div5</div>
+          <div className="div6"> div6</div>
+          <div className="div7"> div7</div>
+          <div className="div8"> div8</div>
+          <div className="div9"> div9</div>
+          <div className="div10"> div10</div>
         </div>
       </div>
     </div>
