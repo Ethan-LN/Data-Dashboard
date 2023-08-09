@@ -10,7 +10,7 @@
 }
 
 .dashboard {
-    background-color: #0E2836;
+    background-color: black;
     width: 90%;
     height: 80%;
     color: seashell;
@@ -25,16 +25,16 @@
     grid-row-gap: 20px;
     }
     
-    .div1 { grid-area: 1 / 1 / 2 / 4; background-color: slateblue;}
-    .div2 { grid-area: 1 / 4 / 2 / 7; background-color: slateblue;}
-    .div3 { grid-area: 1 / 7 / 2 / 10; background-color: slateblue;}
-    .div4 { grid-area: 1 / 10 / 2 / 16; background-color: slateblue;}
-    .div5 { grid-area: 2 / 1 / 4 / 7; background-color: slateblue;}
-    .div6 { grid-area: 2 / 7 / 4 / 10; background-color: slateblue;}
-    .div7 { grid-area: 2 / 10 / 4 / 16; background-color: slateblue;}
-    .div8 { grid-area: 4 / 1 / 6 / 6; background-color: slateblue;}
-    .div9 { grid-area: 4 / 6 / 6 / 9; background-color: slateblue;}
-    .div10 { grid-area: 4 / 9 / 6 / 16; background-color: slateblue;}
+    .div1 { grid-area: 1 / 1 / 2 / 4; background-color: #0E2836;}
+    .div2 { grid-area: 1 / 4 / 2 / 7; background-color: #0E2836;}
+    .div3 { grid-area: 1 / 7 / 2 / 10; background-color: #0E2836;}
+    .div4 { grid-area: 1 / 10 / 2 / 16; background-color: #0E2836;}
+    .div5 { grid-area: 2 / 1 / 4 / 7; background-color: #0E2836;}
+    .div6 { grid-area: 2 / 7 / 4 / 10; background-color: #0E2836;}
+    .div7 { grid-area: 2 / 10 / 4 / 16; background-color: #0E2836;}
+    .div8 { grid-area: 4 / 1 / 6 / 6; background-color: #0E2836; object-fit:contain;}
+    .div9 { grid-area: 4 / 6 / 6 / 9; background-color: #0E2836;}
+    .div10 { grid-area: 4 / 9 / 6 / 16; background-color: #0E2836;}
 
 
     @media (max-width: 700px) {

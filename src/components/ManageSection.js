@@ -1,17 +1,12 @@
-import React from "react";
+import React, { useState } from "react";
 import "../styles/ManageSection.css";
 import { TableDisplay } from "./TableDisplay";
 import { Link } from "react-router-dom";
 import { ManageStaff } from "../pages/ManageStaff/ManageStaff";
 
 export const ManageSection = () => {
-  const DisplayTable = () => {
-    return (
-      <div>
-        <ManageStaff />
-      </div>
-    );
-  };
+  const [group, setGroup] = useState("")
+
 
   return (
     <div className="section">
@@ -47,6 +42,9 @@ export const ManageSection = () => {
           <button>Map Chart</button>
         </Link>
       </div>
+      <Link to="/">
+          <button>Home Dashboard</button>
+        </Link>
     </div>
   );
 };
