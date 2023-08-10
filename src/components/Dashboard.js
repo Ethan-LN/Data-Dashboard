@@ -3,6 +3,7 @@ import "../styles/Dashboard.css";
 import { Area, AreaGraph } from "../charts/AreaGraph";
 import { Line, LineGraph } from "../charts/LineGraph";
 import { BarGraph } from "../charts/BarGraph";
+import { PieGraph } from "../charts/PieGraph";
 
 const Dashboard = () => {
   const [chartName, setChartName] = useState("");
@@ -16,7 +17,7 @@ const Dashboard = () => {
             <div className="div4"> Loss</div>
             <div className="div5"> <LineGraph /></div>
             <div className="div6"> <BarGraph /></div>
-            <div className="div7"> Pie</div>
+            <div className="div7"> <PieGraph /> </div>
             <div className="div8"> <AreaGraph /> </div>
             <div className="div9"> group</div>
             <div className="div10"> map</div>

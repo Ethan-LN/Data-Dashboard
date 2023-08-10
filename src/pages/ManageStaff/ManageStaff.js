@@ -1,14 +1,15 @@
-import React, { useState } from 'react'
-import "./ManageStaff.css"
-import Navigation from '../../components/Navigation'
-import { TableDisplay } from '../../components/TableDisplay'
+import React, { useState } from "react";
+import "./ManageStaff.css";
+import Navigation from "../../components/Navigation";
+import { TableDisplay } from "../../components/TableDisplay";
+import DataTable from "../../tables/DataTable";
 
 export const ManageStaff = () => {
-  const [group, setGroup] = useState()
+  const [group, setGroup] = useState();
   return (
-    <div className='page__staff'>
+    <div className="page__staff">
       <Navigation />
-      {/* <TableDisplay name={group} /> */}
-      ManageStaff</div>
-  )
-}
+      <DataTable />
+    </div>
+  );
+};
