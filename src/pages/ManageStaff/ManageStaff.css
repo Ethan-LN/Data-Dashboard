@@ -5,6 +5,8 @@
     display: flex;
     flex-direction: row;
     /* #092633 */
+    align-items: center;
+    
   }
   
   /* For width under 700px */
