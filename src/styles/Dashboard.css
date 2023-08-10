@@ -33,7 +33,7 @@
     .div6 { grid-area: 2 / 7 / 4 / 10; background-color: #0E2836;border-radius: 5px;}
     .div7 { grid-area: 2 / 10 / 4 / 16; background-color: #0E2836;border-radius: 5px;}
     .div8 { grid-area: 4 / 1 / 6 / 6; background-color: #0E2836; border-radius: 5px;}
-    .div9 { grid-area: 4 / 6 / 6 / 9; background-color: #0E2836;border-radius: 5px;}
+    .div9 { grid-area: 4 / 6 / 6 / 9; background-color: #0E2836;border-radius: 5px;padding: 20px;}
     .div10 { grid-area: 4 / 9 / 6 / 16; background-color: #0E2836;border-radius: 5px;}
 
 

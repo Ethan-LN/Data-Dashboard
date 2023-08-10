@@ -4,7 +4,9 @@ import { AreaGraph } from "../charts/AreaGraph";
 import { LineGraph } from "../charts/LineGraph";
 import { BarGraph } from "../charts/BarGraph";
 import { PieGraph } from "../charts/PieGraph";
-import { MapGraph } from "../charts/MapGraph";
+import { ScatterGraph } from "../charts/ScatterGraph";
+import { RadarGraph } from "../charts/RadarGraph";
+
 
 const Dashboard = () => {
   const [chartName, setChartName] = useState("");
@@ -20,8 +22,8 @@ const Dashboard = () => {
             <div className="div6"> <BarGraph /></div>
             <div className="div7"> <PieGraph /> </div>
             <div className="div8"> <AreaGraph /> </div>
-            <div className="div9"> group</div>
-            <div className="div10"> Map</div>
+            <div className="div9"> <RadarGraph /></div>
+            <div className="div10"> <ScatterGraph /></div>
           </div>
         </div>
       </div>
