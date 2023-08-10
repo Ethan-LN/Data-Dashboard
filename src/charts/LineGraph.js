@@ -7,6 +7,7 @@ import {
     CartesianGrid,
     Tooltip,
     Legend,
+    ResponsiveContainer
   } from "recharts";
 
 
@@ -58,9 +59,8 @@ export const LineGraph = () => {
       ]
   return (
     <div>
+      <ResponsiveContainer width="98%" height={260}>
       <LineChart
-        width={400}
-        height={180}
         data={data}
         margin={{ top: 10, right: 0, left: 0, bottom: 5 }}
       >
@@ -72,6 +72,7 @@ export const LineGraph = () => {
         <Line type="monotone" dataKey="pv" stroke="#8884d8" />
         <Line type="monotone" dataKey="uv" stroke="#82ca9d" />
       </LineChart>
+      </ResponsiveContainer>
     </div>
   );
 };
