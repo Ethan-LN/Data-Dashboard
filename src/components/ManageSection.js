@@ -5,8 +5,7 @@ import { Link } from "react-router-dom";
 import { ManageStaff } from "../pages/ManageStaff/ManageStaff";
 
 export const ManageSection = () => {
-  const [group, setGroup] = useState("")
-
+  const [group, setGroup] = useState("");
 
   return (
     <div className="section">
@@ -43,8 +42,8 @@ export const ManageSection = () => {
         </Link>
       </div>
       <Link to="/">
-          <button>Home Dashboard</button>
-        </Link>
+        <button>Dashboard Home</button>
+      </Link>
     </div>
   );
 };

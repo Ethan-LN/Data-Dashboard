@@ -10,12 +10,15 @@ export const BarGraph = () => {
       }
     },
     legend: {
-      data: ['Profit', 'Expenses', 'Income']
+      data: ['Profit', 'Expenses', 'Income'],
+      textStyle: {
+        color: '#708090', // Set text color for legend
+      },
     },
     grid: {
       left: '3%',
       right: '4%',
-      bottom: '3%',
+      bottom: '15%',
       containLabel: true
     },
     xAxis: [
@@ -27,7 +30,7 @@ export const BarGraph = () => {
       {
         type: 'category',
         axisTick: {
-          show: false
+          show: false,
         },
         data: ['Mon', 'Tue', 'Wed', 'Thu', 'Fri', 'Sat', 'Sun']
       }
@@ -63,17 +66,21 @@ export const BarGraph = () => {
         stack: 'Total',
         label: {
           show: true,
-          position: 'left'
+          position: 'left',
+          textStyle: {
+            color: 'orange', // Set text color for legend
+          },
         },
         emphasis: {
           focus: 'series'
         },
-        data: [-120, -132, -101, -134, -190, -230, -210]
+        data: [-120, -132, -101, -134, -190, -230, -210],
+        color: "orange"
       }
     ]
   };
   return (
-    <div style={{ width: "100%", height: "100%" }}>
+    <div style={{ width: "100%", height:"90%" }}>
       <ReactEcharts option={option} />
     </div>
   );

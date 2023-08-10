@@ -1,6 +1,6 @@
 import React from "react";
 import { AreaChart } from "recharts";
-import { Area,XAxis, YAxis, CartesianGrid, Tooltip,linearGradient } from 'recharts';
+import { Area,XAxis, YAxis, CartesianGrid, Tooltip,linearGradient,ResponsiveContainer } from 'recharts';
 
 export const AreaGraph = () => {
     const data = [
@@ -49,9 +49,8 @@ export const AreaGraph = () => {
       ];
   return (
     <div>
+      <ResponsiveContainer width="100%" height={260}>
       <AreaChart
-        width={300}
-        height={160}
         data={data}
         margin={{ top: 10, right: 0, left: 0, bottom: 0 }}
       >
@@ -84,6 +83,7 @@ export const AreaGraph = () => {
           fill="url(#colorPv)"
         />
       </AreaChart>
+      </ResponsiveContainer>
     </div>
   );
 };

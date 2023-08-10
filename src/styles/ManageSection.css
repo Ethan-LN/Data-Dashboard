@@ -4,6 +4,7 @@
   gap: 20px;
   align-items: flex-start;
   padding: 20px;
+
 }
 
 .data__nav {
@@ -34,6 +35,6 @@ button:hover {
 @media (max-width: 700px) {
   .section {
     margin-top: 30%;
-    flex-direction: row;
+    flex-direction: column;
   }
 }
