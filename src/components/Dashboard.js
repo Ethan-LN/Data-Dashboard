@@ -1,4 +1,3 @@
-import React, { useState } from "react";
 import "../styles/Dashboard.css";
 import { AreaGraph } from "../charts/AreaGraph";
 import { LineGraph } from "../charts/LineGraph";
@@ -9,7 +8,6 @@ import { RadarGraph } from "../charts/RadarGraph";
 
 
 const Dashboard = () => {
-  const [chartName, setChartName] = useState("");
   return (
       <div className="dashboard__container">
         <div className="dashboard">

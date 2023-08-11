@@ -1,11 +1,7 @@
-import React, { useState } from "react";
 import "../styles/ManageSection.css";
-import { TableDisplay } from "./TableDisplay";
 import { Link } from "react-router-dom";
-import { ManageStaff } from "../pages/ManageStaff/ManageStaff";
 
 export const ManageSection = () => {
-  const [group, setGroup] = useState("");
 
   return (
     <div className="section">
