@@ -1,8 +1,8 @@
-import React from 'react'
-import "./CustomerContacts.css"
-import Navigation from '../../components/Navigation'
-import DataTable from '../../tables/DataTable'
-import { useState, useEffect} from 'react'
+import React from "react";
+import "./CustomerContacts.css";
+import Navigation from "../../components/Navigation";
+import DataTable from "../../tables/DataTable";
+import { useState, useEffect } from "react";
 import axios from "axios";
 
 export const CustomerContacts = () => {
@@ -11,7 +11,7 @@ export const CustomerContacts = () => {
 
   useEffect(() => {
     axios
-      .get("http://3.106.113.178:8000/api/staff/")
+      .get("http://3.106.113.178:8000/api/customers/")
       .then((response) => {
         console.log(response);
         if (response.status !== 200) {
@@ -20,8 +20,8 @@ export const CustomerContacts = () => {
         return response.data;
       })
       .then((data) => {
-        setCustomerData(data);
-        console.log(customerData);
+        const parsed_data = JSON.parse(data.customers_data);
+        setCustomerData(Object.values(parsed_data[0]).slice(0, -1));
         setLoading(false);
       })
       .catch((error) => {
@@ -34,6 +34,7 @@ export const CustomerContacts = () => {
   if (loading) {
     return <p>Loading...</p>;
   }
+
   const columns = [
     { field: "id", headerName: "ID", width: 70 },
     { field: "first_name", headerName: "First Name", width: 130 },
@@ -42,12 +43,14 @@ export const CustomerContacts = () => {
     { field: "email", headerName: "Email", width: 200 },
     { field: "contact", headerName: "Contact", width: 150 },
     { field: "access_level", headerName: "Access Level", width: 130 },
+    { field: "address", headerName: "Address", width: 250 },
+    { field: "zip_code", headerName: "Zip Code", width: 120 },
   ];
 
   return (
-    <div className='page__customer'> 
-    <Navigation />
-    <DataTable data={customerData} columns={columns}/>
+    <div className="page__customer">
+      <Navigation />
+      <DataTable data={customerData} columns={columns} />
     </div>
-  )
-}
+  );
+};
