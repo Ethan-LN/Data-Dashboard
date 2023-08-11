@@ -8,10 +8,11 @@ import axios from "axios";
 export const CustomerContacts = () => {
   const [customerData, setCustomerData] = useState("");
   const [loading, setLoading] = useState(true);
+  const backendUrl = process.env.REACT_APP_DJANGO_RESTFULAPI_MONGODB_URL
 
   useEffect(() => {
     axios
-      .get("http://3.106.113.178:8000/api/customers/")
+      .get(`${backendUrl}/api/customers/`)
       .then((response) => {
         console.log(response);
         if (response.status !== 200) {
