@@ -3,12 +3,12 @@ import ReactEcharts from "echarts-for-react";
 
 export const RadarGraph = () => {
     const option = {
-            title: {
-              text: 'Proportion of Browsers',
-            //   subtext: 'Fake Data',
-              top: 10,
-              left: 10
-            },
+            // title: {
+            //   text: 'Proportion of Browsers',
+            // //   subtext: 'Fake Data',
+            //   top: 10,
+            //   left: 10
+            // },
             tooltip: {
               trigger: 'item'
             },
