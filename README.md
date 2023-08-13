@@ -19,13 +19,13 @@ The Admin Dashboard Application is a web-based application built with React.js t
 
 ## Tech Stacks 
 
-JENKINS CICD PIPELINE | AWS EC2 RDS VPC | REACT  DJANGO  MYSQL MongoDB | Python Javascript CSS Bash | Git subModule
+JENKINS CICD PIPELINE | AWS EC2 RDS VPC | REACT  DJANGO  MYSQL MongoDB | Python Javascript CSS Bash | Git subModule | RESTful API
 
 Front-End: React application
 Back-End:  Django RESTFUL API 
 Databases: MYSQL & MongoDB
 
-![Screen Shot 2023-08-14 at 00 34 41](https://github.com/Ethan-LN/Data-Dashboard/assets/71419743/33442c75-1f28-4b35-ad8b-d0e676adfb2b)
+![Screen Shot 2023-08-14 at 00 39 41](https://github.com/Ethan-LN/Data-Dashboard/assets/71419743/da52fdba-514a-450d-9ec9-722653e3adee)
 
 ![Screen Shot 2023-08-13 at 23 51 16](https://github.com/Ethan-LN/Data-Dashboard/assets/71419743/d6b296bb-4630-4aac-91c7-0e6a840f310e)
 
@@ -33,7 +33,7 @@ Databases: MYSQL & MongoDB
 
 ![Screen Shot 2023-08-13 at 23 42 29](https://github.com/Ethan-LN/Data-Dashboard/assets/71419743/6dc948ab-db61-420f-a8f0-b32a27ada02f)
 
-![Screen Shot 2023-08-13 at 23 42 29](https://github.com/Ethan-LN/Data-Dashboard/assets/71419743/b2bde42f-8275-4429-a87b-572f90baabae)
+![Screen Shot 2023-08-13 at 23 41 36](https://github.com/Ethan-LN/Data-Dashboard/assets/71419743/6d2868b2-cee5-4b8c-b651-5612a386f11f)
 
 
 ## Usage
