@@ -32,6 +32,15 @@ button:hover {
   color: black;
 }
 
+.icons__section {
+  display: flex;
+  flex-direction: row;
+}
+
+.icons {
+  color: seashell;
+}
+
 @media (max-width: 700px) {
   .section {
     margin-top: 30%;
