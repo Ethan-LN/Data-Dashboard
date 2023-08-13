@@ -4,7 +4,7 @@ import {
     Line,
     XAxis,
     YAxis,
-    CartesianGrid,
+    // CartesianGrid,
     Tooltip,
     Legend,
     ResponsiveContainer

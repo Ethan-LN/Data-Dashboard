@@ -25,10 +25,10 @@
     grid-row-gap: 20px;
     }
     
-    .div1 { grid-area: 1 / 1 / 2 / 4; background-color: #0E2836;    border-radius: 5px;}
-    .div2 { grid-area: 1 / 4 / 2 / 7; background-color: #0E2836;border-radius: 5px;}
-    .div3 { grid-area: 1 / 7 / 2 / 10; background-color: #0E2836;border-radius: 5px;}
-    .div4 { grid-area: 1 / 10 / 2 / 16; background-color: #0E2836;border-radius: 5px;}
+    .div1 { grid-area: 1 / 1 / 2 / 4; background-color: #0E2836; border-radius: 5px; display:flex;flex-direction: column; gap:5px;padding: 10px; color: lightslategray;font-weight: 800;}
+    .div2 { grid-area: 1 / 4 / 2 / 7; background-color: #0E2836;border-radius: 5px;display:flex; flex-direction: column;gap:5px;padding: 10px;color: lightslategray; font-weight: 800;}
+    .div3 { grid-area: 1 / 7 / 2 / 10; background-color: #0E2836;border-radius: 5px;display:flex; flex-direction: column;gap:5px;padding: 10px;color: lightslategray;font-weight: 800;}
+    .div4 { grid-area: 1 / 10 / 2 / 16; background-color: #0E2836;border-radius: 5px;display:flex; flex-direction: column;gap:5px;padding: 10px;color: lightslategray;font-weight: 800;}
     .div5 { grid-area: 2 / 1 / 4 / 7; background-color: #0E2836;border-radius: 5px;}
     .div6 { grid-area: 2 / 7 / 4 / 10; background-color: #0E2836;border-radius: 5px;}
     .div7 { grid-area: 2 / 10 / 4 / 16; background-color: #0E2836;border-radius: 5px;}
@@ -36,6 +36,11 @@
     .div9 { grid-area: 4 / 6 / 6 / 9; background-color: #0E2836;border-radius: 5px;padding: 20px;}
     .div10 { grid-area: 4 / 9 / 6 / 16; background-color: #0E2836;border-radius: 5px;}
 
+
+.icons__account {
+    color: lightslategray;
+    font-size:xx-large;
+}
 
     @media (max-width: 700px) {
         .dashboard {

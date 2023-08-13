@@ -1,6 +1,6 @@
 import React from "react";
 import { AreaChart } from "recharts";
-import { Area,XAxis, YAxis, CartesianGrid, Tooltip,linearGradient,ResponsiveContainer } from 'recharts';
+import { Area,XAxis, YAxis, Tooltip,ResponsiveContainer } from 'recharts';
 
 export const AreaGraph = () => {
     const data = [
