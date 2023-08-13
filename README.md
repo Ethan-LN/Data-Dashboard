@@ -1,4 +1,4 @@
-# Admin Dashboard Application
+# Admin Dashboard Application (still under development)
 
 The Admin Dashboard Application is a web-based application built with React.js that provides a user-friendly interface for managing staff information access, customer contacts, and displaying financial charts of the company. This application is designed to be used by authorized administrative personnel to efficiently handle essential tasks related to staff and customer data, as well as monitoring financial performance through insightful charts and graphs.
 
@@ -10,15 +10,35 @@ The Admin Dashboard Application is a web-based application built with React.js t
 
 - **Financial Charts:** The application provides dynamic and interactive financial charts that offer a visual representation of the company's financial performance. It includes charts for revenue, expenses, profits, and other key financial metrics over specific periods.
 
-![Home](https://github.com/Ethan-LN/Finance-Dashboard/assets/71419743/47f208c8-16f7-4565-9966-16ada6ed122b)
+![Screen Shot 2023-08-13 at 23 25 40](https://github.com/Ethan-LN/Data-Dashboard/assets/71419743/b5741ce4-aaad-4c02-b7c9-9d4110dac486)
 
-![2](https://github.com/Ethan-LN/Finance-Dashboard/assets/71419743/47af0a88-5034-4aed-b7e3-87289191ef90)
+![Screen Shot 2023-08-13 at 00 15 05](https://github.com/Ethan-LN/Data-Dashboard/assets/71419743/7d01bf1b-9d8a-4ba3-8927-5eded0ab43f5)
 
-![3](https://github.com/Ethan-LN/Finance-Dashboard/assets/71419743/8f1c38f5-6d85-4787-a567-58cce99ab090)
+![Screen Shot 2023-08-13 at 00 15 31](https://github.com/Ethan-LN/Data-Dashboard/assets/71419743/85fcd9ac-c8c5-4fe0-8045-bc550af129c9)
+
+
+## Tech Stacks 
+
+JENKINS CICD PIPELINE | AWS EC2 RDS VPC | REACT  DJANGO  MYSQL MongoDB | Python Javascript CSS Bash | Git subModule
+
+Front-End: React application
+Back-End:  Django RESTFUL API 
+Databases: MYSQL & MongoDB
+
+![Screen Shot 2023-08-14 at 00 34 41](https://github.com/Ethan-LN/Data-Dashboard/assets/71419743/33442c75-1f28-4b35-ad8b-d0e676adfb2b)
+
+![Screen Shot 2023-08-13 at 23 51 16](https://github.com/Ethan-LN/Data-Dashboard/assets/71419743/d6b296bb-4630-4aac-91c7-0e6a840f310e)
+
+![Screen Shot 2023-08-13 at 23 40 32](https://github.com/Ethan-LN/Data-Dashboard/assets/71419743/61b1c632-0bbe-4bfb-8c92-13c2b303bb65)
+
+![Screen Shot 2023-08-13 at 23 42 29](https://github.com/Ethan-LN/Data-Dashboard/assets/71419743/6dc948ab-db61-420f-a8f0-b32a27ada02f)
+
+![Screen Shot 2023-08-13 at 23 42 29](https://github.com/Ethan-LN/Data-Dashboard/assets/71419743/b2bde42f-8275-4429-a87b-572f90baabae)
+
 
 ## Usage
 
-1. **Login:** Once the application is running, you will be presented with a login screen. Enter your admin credentials to access the dashboard.
+1. **Login:** Once the application is running, you will be presented with a login screen. Enter your admin credentials to access the dashboard.(Under develop)
 
 2. **Staff Management:** In the Staff section, you can manage staff information, including adding new staff members, editing existing profiles, and managing their access permissions.
 
