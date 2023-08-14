@@ -5,45 +5,45 @@ import { Area,XAxis, YAxis, Tooltip,ResponsiveContainer } from 'recharts';
 export const AreaGraph = () => {
     const data = [
         {
-          "name": "Page A",
-          "uv": 4000,
-          "pv": 2400,
+          "name": "Mon",
+          "Loss": 4000,
+          "Profit": 2400,
           "amt": 2400
         },
         {
-          "name": "Page B",
-          "uv": 3000,
-          "pv": 1398,
+          "name": "Tue",
+          "Loss": 3000,
+          "Profit": 1398,
           "amt": 2210
         },
         {
-          "name": "Page C",
-          "uv": 2000,
-          "pv": 9800,
+          "name": "Wed",
+          "Loss": 2000,
+          "Profit": 9800,
           "amt": 2290
         },
         {
-          "name": "Page D",
-          "uv": 2780,
-          "pv": 3908,
+          "name": "Thur",
+          "Loss": 2780,
+          "Profit": 3908,
           "amt": 2000
         },
         {
-          "name": "Page E",
-          "uv": 1890,
-          "pv": 4800,
+          "name": "Fri",
+          "Loss": 1890,
+          "Profit": 4800,
           "amt": 2181
         },
         {
-          "name": "Page F",
-          "uv": 2390,
-          "pv": 3800,
+          "name": "Sat",
+          "Loss": 2390,
+          "Profit": 3800,
           "amt": 2500
         },
         {
-          "name": "Page G",
-          "uv": 3490,
-          "pv": 4300,
+          "name": "Sun",
+          "Loss": 3490,
+          "Profit": 4300,
           "amt": 2100
         }
       ];
@@ -55,11 +55,11 @@ export const AreaGraph = () => {
         margin={{ top: 10, right: 0, left: 0, bottom: 0 }}
       >
         <defs>
-          <linearGradient id="colorUv" x1="0" y1="0" x2="0" y2="1">
+          <linearGradient id="colorLoss" x1="0" y1="0" x2="0" y2="1">
             <stop offset="5%" stopColor="#8884d8" stopOpacity={0.8} />
             <stop offset="95%" stopColor="#8884d8" stopOpacity={0} />
           </linearGradient>
-          <linearGradient id="colorPv" x1="0" y1="0" x2="0" y2="1">
+          <linearGradient id="colorProfit" x1="0" y1="0" x2="0" y2="1">
             <stop offset="5%" stopColor="#82ca9d" stopOpacity={0.8} />
             <stop offset="95%" stopColor="#82ca9d" stopOpacity={0} />
           </linearGradient>
@@ -70,17 +70,17 @@ export const AreaGraph = () => {
         <Tooltip />
         <Area
           type="monotone"
-          dataKey="uv"
+          dataKey="Loss"
           stroke="#8884d8"
           fillOpacity={1}
-          fill="url(#colorUv)"
+          fill="url(#colorLoss)"
         />
         <Area
           type="monotone"
-          dataKey="pv"
+          dataKey="Profit"
           stroke="#82ca9d"
           fillOpacity={1}
-          fill="url(#colorPv)"
+          fill="url(#colorProfit)"
         />
       </AreaChart>
       </ResponsiveContainer>
