@@ -15,45 +15,45 @@ import {
 export const LineGraph = () => {
     const data = [
         {
-          "name": "Page A",
-          "uv": 4000,
-          "pv": 2400,
+          "name": "Jan",
+          "Loss": 3080,
+          "Profit": 4400,
           "amt": 2400
         },
         {
-          "name": "Page B",
-          "uv": 3000,
-          "pv": 1398,
+          "name": "Feb",
+          "Loss": 4000,
+          "Profit": 3398,
           "amt": 2210
         },
         {
-          "name": "Page C",
-          "uv": 2000,
-          "pv": 9800,
+          "name": "March",
+          "Loss": 3000,
+          "Profit": 6800,
           "amt": 2290
         },
         {
-          "name": "Page D",
-          "uv": 2780,
-          "pv": 3908,
+          "name": "April",
+          "Loss": 2780,
+          "Profit": 5908,
           "amt": 2000
         },
         {
-          "name": "Page E",
-          "uv": 1890,
-          "pv": 4800,
+          "name": "May",
+          "Loss": 1890,
+          "Profit": 4800,
           "amt": 2181
         },
         {
-          "name": "Page F",
-          "uv": 2390,
-          "pv": 3800,
+          "name": "June",
+          "Loss": 2390,
+          "Profit": 4800,
           "amt": 2500
         },
         {
-          "name": "Page G",
-          "uv": 3490,
-          "pv": 4300,
+          "name": "July",
+          "Loss": 3490,
+          "Profit": 4300,
           "amt": 2100
         }
       ]
@@ -69,8 +69,8 @@ export const LineGraph = () => {
         <YAxis />
         <Tooltip />
         <Legend />
-        <Line type="monotone" dataKey="pv" stroke="#8884d8" />
-        <Line type="monotone" dataKey="uv" stroke="#82ca9d" />
+        <Line type="monotone" dataKey="Profit" stroke="#8884d8" />
+        <Line type="monotone" dataKey="Loss" stroke="#82ca9d" />
       </LineChart>
       </ResponsiveContainer>
     </div>

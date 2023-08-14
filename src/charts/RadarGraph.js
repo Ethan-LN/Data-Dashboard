@@ -31,11 +31,11 @@ export const RadarGraph = () => {
             },
             radar: {
               indicator: [
-                { text: 'IE8-', max: 400 },
-                { text: 'IE9+', max: 400 },
-                { text: 'Safari', max: 400 },
-                { text: 'Firefox', max: 400 },
-                { text: 'Chrome', max: 400 }
+                { text: 'Retail', max: 400 },
+                { text: 'Stock', max: 400 },
+                { text: 'Royalty', max: 400 },
+                { text: 'Share', max: 400 },
+                { text: 'Member', max: 400 }
               ]
             },
             series: (function () {
